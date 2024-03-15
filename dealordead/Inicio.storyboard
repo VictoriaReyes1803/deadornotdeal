@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="YNz-Nt-Ecj">
+            <objects>
+                <viewController id="07E-rr-lxM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="llc-q5-Ldk">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="z0J-o4-7e8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xAH-c4-Z3M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="261" y="99"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kM0-94-BT7">
+            <objects>
+                <viewController id="BoD-8P-5qw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Adc-5b-Grx">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7lX-23-GpP">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22 Victoria Reyes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yvf-JW-J5u">
+                                <rect key="frame" x="232.33333333333334" y="152" width="431.33333333333326" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" red="0.99433758230000002" green="0.97693154579999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22170130 Kiara Barrientos Salazar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NmY-Cm-5c8">
+                                <rect key="frame" x="19" y="212" width="858" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" red="0.99433758230000002" green="0.97693154579999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22170058 Kasandra Martinez Vargas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qa6-tv-qoq">
+                                <rect key="frame" x="-15" y="272" width="926" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" red="0.99433758230000002" green="0.97693154579999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Creditos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sV-vg-DCQ">
+                                <rect key="frame" x="391.66666666666669" y="93" width="113" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" red="0.99433758230000002" green="0.97693154579999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="J8b-tp-TZe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7lX-23-GpP" firstAttribute="centerY" secondItem="Adc-5b-Grx" secondAttribute="centerY" id="2FK-uk-rIB"/>
+                            <constraint firstItem="NmY-Cm-5c8" firstAttribute="width" secondItem="7lX-23-GpP" secondAttribute="width" multiplier="0.957292" id="BDq-yR-Igz"/>
+                            <constraint firstItem="Qa6-tv-qoq" firstAttribute="top" secondItem="NmY-Cm-5c8" secondAttribute="bottom" constant="23" id="C4S-R6-bkP"/>
+                            <constraint firstItem="Yvf-JW-J5u" firstAttribute="top" secondItem="5sV-vg-DCQ" secondAttribute="bottom" constant="22" id="F8g-UF-BuE"/>
+                            <constraint firstItem="5sV-vg-DCQ" firstAttribute="centerX" secondItem="7lX-23-GpP" secondAttribute="centerX" id="MKF-2h-kHN"/>
+                            <constraint firstItem="Yvf-JW-J5u" firstAttribute="width" secondItem="7lX-23-GpP" secondAttribute="width" multiplier="0.48125" id="P5b-SO-1hD"/>
+                            <constraint firstItem="NmY-Cm-5c8" firstAttribute="top" secondItem="Yvf-JW-J5u" secondAttribute="bottom" constant="23" id="Q54-eL-luY"/>
+                            <constraint firstItem="7lX-23-GpP" firstAttribute="height" secondItem="Adc-5b-Grx" secondAttribute="height" id="VqP-yt-vaB"/>
+                            <constraint firstItem="Qa6-tv-qoq" firstAttribute="centerX" secondItem="Adc-5b-Grx" secondAttribute="centerX" id="WHf-56-SHF"/>
+                            <constraint firstItem="5sV-vg-DCQ" firstAttribute="width" secondItem="7lX-23-GpP" secondAttribute="width" multiplier="0.126116" id="d2W-VS-deA"/>
+                            <constraint firstItem="5sV-vg-DCQ" firstAttribute="top" secondItem="J8b-tp-TZe" secondAttribute="top" constant="93" id="d6n-jh-KFQ"/>
+                            <constraint firstItem="NmY-Cm-5c8" firstAttribute="centerX" secondItem="Adc-5b-Grx" secondAttribute="centerX" id="dVd-Vf-9Oy"/>
+                            <constraint firstItem="7lX-23-GpP" firstAttribute="centerX" secondItem="Adc-5b-Grx" secondAttribute="centerX" id="gM4-lB-2qs"/>
+                            <constraint firstItem="5sV-vg-DCQ" firstAttribute="centerX" secondItem="Adc-5b-Grx" secondAttribute="centerX" id="ntY-sw-1Uq"/>
+                            <constraint firstItem="Qa6-tv-qoq" firstAttribute="width" secondItem="7lX-23-GpP" secondAttribute="width" multiplier="1.03333" id="owm-02-rdM"/>
+                            <constraint firstItem="Yvf-JW-J5u" firstAttribute="centerX" secondItem="Adc-5b-Grx" secondAttribute="centerX" id="q1I-hn-Gm8"/>
+                            <constraint firstItem="7lX-23-GpP" firstAttribute="width" secondItem="Adc-5b-Grx" secondAttribute="width" id="rcL-E1-xNT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6XP-cb-yJf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="991" y="89"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
